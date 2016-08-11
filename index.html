@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="./css/tictactoe.css">
+</head>
+<body>
+  <h1> WHO IS MORE STUPID</h1>
+  <table class="radioBt">
+    <tr class="tr">
+      <td class="td" id="okbt" colspan="2">OK</td>
+    </tr>
+    <tr class="tr">
+      <td class="td"><input type="radio" name="radio" value="com" checked>Player VS Computer</td>
+      <td class="td"><input type="radio" name="radio" value="player">Player VS Player</td>
+    </tr>
+  </table>
+  <div class="user1">
+    <img id="p1img" src="./css/player1.jpg" alt="" width="200" height="250px">
+    <p>win   :</p><p id="p1W">0</p>
+    <p>Lose   :</p><p id="p1L">0</p>
+    <p>Draw  :</p><p id="p1D">0</p>
+  </div>
+  <table>
+    <tr>
+      <th id="00"></th>
+      <th id="01"></th>
+      <th id="02"></th>
+    </tr>
+    <tr>
+      <th id="10"></th>
+      <th id="11"></th>
+      <th id="12"></th>
+    </tr>
+    <tr>
+      <th id="20"></th>
+      <th id="21"></th>
+      <th id="22"></th>
+    </tr>
+  </table>
+  <div class="user2">
+    <img id="p2img" src="./css/player2.jpg" alt="" width="200" height="250px">
+    <p>win   :</p><p id="p2W">0</p>
+    <p>Lose   :</p><p id="p2L">0</p>
+    <p>Draw  :</p><p id="p2D">0</p>
+  </div>
+  <audio id="p1S" src="./css/p1.mp3"></audio>
+  <audio id="p2S" src="./css/p2.mp3"></audio>
+  <audio id="winner" src="./css/winner.mp3"></audio>
+  <script src="./js/jquery-3.1.0.min.js"></script>
+  <script src="./js/tictactoe.js" type="text/javascript"></script>
+</body>
+</html>
