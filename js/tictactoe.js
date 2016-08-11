@@ -124,8 +124,6 @@ var winnerSound = function() {
   winner.pause();
   winner.currentTime = 0;
 } , 1500);
-
-
 };
 ///////////////////////////////////////////////////////////////////////////////
 var choiceOption = function() {
