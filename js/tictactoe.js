@@ -115,6 +115,7 @@ var p2Sound = function() {
   p2S.pause();
   p2S.currentTime = 10;
 } , 300);
+};
 
 var winnerSound = function() {
   var winner = document.getElementById("winner");
