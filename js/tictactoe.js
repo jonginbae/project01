@@ -36,17 +36,17 @@ var reSet = function (){
     allTh[i].style.backgroundColor = "white";
     allTh[i].innerHTML = "";
   }
-  document.querySelector("#p1img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/player1.jpg";
-  document.querySelector("#p2img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/player2.jpg";
+  document.querySelector("#p1img").src ="./css/player1.jpg";
+  document.querySelector("#p2img").src ="./css/player2.jpg";
 };
 
 var changeImage = function ( result ){
   if(result === "1"){
-    document.querySelector("#p1img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/winnergif.gif";
-    document.querySelector("#p2img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/player2.jpg";
+    document.querySelector("#p1img").src ="./css/winnergif.gif";
+    document.querySelector("#p2img").src ="./css/player2.jpg";
   }else if (result === "2"){
-    document.querySelector("#p2img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/winnergif.gif";
-    document.querySelector("#p1img").src ="file:///Users/baejongin/wdi-16/myLocal/week_02/05.day/homework/css/player1.jpg";
+    document.querySelector("#p2img").src ="./css/winnergif.gif";
+    document.querySelector("#p1img").src ="./css/player1.jpg";
   }
 };
 
